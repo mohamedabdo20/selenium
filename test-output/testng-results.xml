@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="10320" started-at="2018-10-23T08:27:39Z" finished-at="2018-10-23T08:27:49Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.ContactUsTest@77604a86]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Regression Test" duration-ms="10320" started-at="2018-10-23T08:27:39Z" finished-at="2018-10-23T08:27:49Z">
+      <class name="tests.UserRegistrationTestWithJavaFaker">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="setUpClass" is-config="true" duration-ms="34" started-at="2018-10-23T08:27:41Z" finished-at="2018-10-23T08:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="UserCanRegisterSuccssfully" duration-ms="2602" started-at="2018-10-23T08:27:44Z" finished-at="2018-10-23T08:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-23T08:27:46Z" finished-at="2018-10-23T08:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=UserRegistrationTestWithJavaFaker.UserCanRegisterSuccssfully()[pri:1, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="RegisteredUserCanLogout()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="RegisteredUserCanLogout" duration-ms="1104" started-at="2018-10-23T08:27:46Z" depends-on-methods="tests.UserRegistrationTestWithJavaFaker.UserCanRegisterSuccssfully" finished-at="2018-10-23T08:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-23T08:27:47Z" finished-at="2018-10-23T08:27:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=UserRegistrationTestWithJavaFaker.RegisteredUserCanLogout()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="RegisteredUserCanLogin()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="RegisteredUserCanLogin" duration-ms="1977" started-at="2018-10-23T08:27:47Z" depends-on-methods="tests.UserRegistrationTestWithJavaFaker.RegisteredUserCanLogout" finished-at="2018-10-23T08:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-23T08:27:49Z" finished-at="2018-10-23T08:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogin status=SUCCESS method=UserRegistrationTestWithJavaFaker.RegisteredUserCanLogin()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.UserRegistrationTestWithJavaFaker@63fde7ca]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2018-10-23T08:27:49Z" finished-at="2018-10-23T08:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.UserRegistrationTestWithJavaFaker -->
+      <class name="tests.ProductHoverMenuTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec]" name="setUpClass" is-config="true" duration-ms="340" started-at="2018-10-23T08:27:39Z" finished-at="2018-10-23T08:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec]" name="UserCanSelectSubCategoryFromMainMenu" duration-ms="1855" started-at="2018-10-23T08:27:39Z" finished-at="2018-10-23T08:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanSelectSubCategoryFromMainMenu -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2018-10-23T08:27:41Z" finished-at="2018-10-23T08:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanSelectSubCategoryFromMainMenu status=SUCCESS method=ProductHoverMenuTest.UserCanSelectSubCategoryFromMainMenu()[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.ProductHoverMenuTest@3a6409ec]" name="tearDownClass" is-config="true" duration-ms="15" started-at="2018-10-23T08:27:41Z" finished-at="2018-10-23T08:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.ContactUsTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.ContactUsTest@77604a86]" name="startDriver" is-config="true" duration-ms="13913" started-at="2018-10-23T08:27:25Z" finished-at="2018-10-23T08:27:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.ContactUsTest@77604a86]" name="setUpClass" is-config="true" duration-ms="27" started-at="2018-10-23T08:27:41Z" finished-at="2018-10-23T08:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="UserCanUseContactUs()[pri:0, instance:tests.ContactUsTest@77604a86]" name="UserCanUseContactUs" duration-ms="2297" started-at="2018-10-23T08:27:41Z" finished-at="2018-10-23T08:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanUseContactUs -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactUsTest@77604a86]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2018-10-23T08:27:44Z" finished-at="2018-10-23T08:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanUseContactUs status=SUCCESS method=ContactUsTest.UserCanUseContactUs()[pri:0, instance:tests.ContactUsTest@77604a86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.ContactUsTest@77604a86]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2018-10-23T08:27:44Z" finished-at="2018-10-23T08:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.ContactUsTest@77604a86]" name="stopDriver" is-config="true" duration-ms="632" started-at="2018-10-23T08:27:49Z" finished-at="2018-10-23T08:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.ContactUsTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
